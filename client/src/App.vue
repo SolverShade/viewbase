@@ -1,10 +1,6 @@
 <template>
   <div class="app-container">
     <header class="app-header">
-      <h1>Hello App!</h1>
-      <p>
-        <strong>Current route path:</strong> {{ $route.fullPath }}
-      </p>
     </header>
     <nav class="app-nav">
       <RouterLink to="/">Go to Home</RouterLink>
