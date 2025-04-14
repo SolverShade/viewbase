@@ -11,5 +11,10 @@
         "*.local"
       ]
     }
-  ]
+  ],
+  "emulators": {
+    "functions": {
+      "port": 5050
+    }
+  }
 }

@@ -30,9 +30,10 @@ export default {
   methods: {
     async fetchHelloWorld() {
       try {
-        const response = await axios.get('http://localhost:5000/vuetesting42/us-central1/helloWorld');
+        const response = await axios.get('http://localhost:5050/vuetesting42/us-central1/helloWorld');
         this.helloText = response.data;
       } catch (error) {
+        this.helloText = 'Error fetching data. server running?';
         console.error('Error fetching HelloWorld:', error);
       } finally {
         this.loading = false;
