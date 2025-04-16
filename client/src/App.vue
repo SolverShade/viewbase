@@ -3,9 +3,10 @@
     <header class="app-header">
     </header>
     <nav class="app-nav">
-      <RouterLink to="/">Go to Home</RouterLink>
-      <RouterLink to="/about">Go to About</RouterLink>
-      <RouterLink to="/testing">Go to Testing</RouterLink>
+      <RouterLink to="/">Home</RouterLink>
+      <RouterLink to="/about">About</RouterLink>
+      <RouterLink to="/testing">Testing</RouterLink>
+      <RouterLink to="/tags">Tags</RouterLink>
     </nav>
     <main class="app-main">
       <RouterView />
